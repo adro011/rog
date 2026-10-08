@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Folio",
+      "hasCanvas": false,
+      "bodyTextLen": 1183,
+      "bodyTextHash": "ced35f0ce57f3d64530fca8d2ba9fa001ea7a6153299ce734a26bf673a277a4c",
+      "bodyTextPrefix": "Folio Maya Sen Portfolio Admin A− A+ Riverside Academy · RS-2409",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Folio",
+      "hasCanvas": false,
+      "bodyTextLen": 1174,
+      "bodyTextHash": "44747d465ac6d46b43581ff96f49a3c1f99bc09632408d4961296f1897b98c94",
+      "bodyTextPrefix": "Folio Portfolio Admin A− A+ Riverside Academy · RS-2409 Maya Sen",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

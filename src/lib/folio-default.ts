@@ -1,0 +1,120 @@
+import type { FolioState } from "./folio-types";
+
+export const DEFAULT_FOLIO: FolioState = {
+  selectedStudentId: "RS-2409",
+  theme: "light",
+  typeSize: "md",
+  growthPlans: {},
+  students: [
+    {
+      id: "RS-2409",
+      name: "Maya Sen",
+      school: "Riverside Academy",
+      yearLabel: "Grade 9 · House Captain",
+    },
+    {
+      id: "RS-2411",
+      name: "Kabir Das",
+      school: "Riverside Academy",
+      yearLabel: "Grade 8",
+    },
+  ],
+  academic: [
+    { id: "a1", studentId: "RS-2409", classYear: 7, classPosition: 4, grade: 4.1 },
+    { id: "a2", studentId: "RS-2409", classYear: 8, classPosition: 2, grade: 4.4 },
+    { id: "a3", studentId: "RS-2409", classYear: 9, classPosition: 2, grade: 4.6 },
+    { id: "a4", studentId: "RS-2411", classYear: 7, classPosition: 11, grade: 3.6 },
+    { id: "a5", studentId: "RS-2411", classYear: 8, classPosition: 7, grade: 4.0 },
+  ],
+  activities: [
+    {
+      id: "g1",
+      studentId: "RS-2409",
+      eventName: "800m inter-house",
+      date: "2025-11-12",
+      result: "Gold · 2:28",
+    },
+    {
+      id: "g2",
+      studentId: "RS-2409",
+      eventName: "City junior basketball",
+      date: "2025-12-04",
+      result: "Semi-final",
+    },
+    {
+      id: "g3",
+      studentId: "RS-2409",
+      eventName: "50m freestyle",
+      date: "2026-03-08",
+      result: "Bronze",
+    },
+    {
+      id: "g4",
+      studentId: "RS-2411",
+      eventName: "House cricket",
+      date: "2026-01-19",
+      result: "Participated",
+    },
+  ],
+  discipline: [
+    { studentId: "RS-2409", infractionCount: 0 },
+    { studentId: "RS-2411", infractionCount: 2 },
+  ],
+  events: [
+    {
+      id: "e1",
+      studentId: "RS-2409",
+      eventName: "City debate finals",
+      date: "2026-02-18",
+      outcome: "Runners-up",
+    },
+    {
+      id: "e2",
+      studentId: "RS-2409",
+      eventName: "Founders’ Day extempore",
+      date: "2026-01-24",
+      outcome: "First",
+    },
+    {
+      id: "e3",
+      studentId: "RS-2411",
+      eventName: "Class elocution",
+      date: "2025-11-09",
+      outcome: "Participated",
+    },
+  ],
+  tasks: [
+    {
+      id: "t1",
+      studentId: "RS-2409",
+      section: "academic",
+      eventName: "Term 2 mathematics mock",
+      date: "2026-10-08",
+      done: false,
+    },
+    {
+      id: "t2",
+      studentId: "RS-2409",
+      section: "academic",
+      eventName: "Science practical",
+      date: "2026-10-14",
+      done: false,
+    },
+    {
+      id: "t3",
+      studentId: "RS-2409",
+      section: "extra",
+      eventName: "House debate shortlist",
+      date: "2026-10-06",
+      done: false,
+    },
+    {
+      id: "t4",
+      studentId: "RS-2409",
+      section: "extra",
+      eventName: "Extempore club",
+      date: "2026-10-11",
+      done: true,
+    },
+  ],
+};
